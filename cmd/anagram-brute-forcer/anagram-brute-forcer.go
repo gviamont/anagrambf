@@ -16,7 +16,7 @@ func main() {
 	}
 
 	// Open the dictionary file and organize the words.
-	wordsFileName := build.Default.GOPATH + "/words.txt"
+	wordsFileName := build.Default.GOPATH + "/src/github.com/gviamont/anagrambf/words.txt"
 	if len(os.Args) == 3 {
 		wordsFileName = os.Args[2]
 	}
