@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	anagrambf "anagram-brute-forcer"
+	"github.com/gviamont/anagrambf"
 )
 
 func main() {
